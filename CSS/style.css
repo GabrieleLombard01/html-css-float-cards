@@ -4,8 +4,7 @@
 */
 /*Custom properties*/
     :root{
-        _pink: #e53170;
-        _blue: #55b3d8;
+       
     }
 /*CSS reset*/
 *{
@@ -15,6 +14,39 @@
 }
 /*Generics*/
 h1{
-    color: var(_pink);
+    color: #e53170;
+    font-family: Fredoka, 'Comic Sans', cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+p{
+    text-align: center;
+    padding-bottom: 25px;
+}
+img{
+    height: 100px;
+    width: 100px;
 }
 /*Utilties*/
+.conteiner{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: solid red 2px;
+}
+.row{
+
+}
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.colunn{
+    width: calc(100% / 3);
+    border: solid black 2px;
+    
+}
+.left_position{
+    float: left;
+}
