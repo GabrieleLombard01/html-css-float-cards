@@ -2,6 +2,19 @@
     Pink: #e53170
     Blue: #55b3d8
 */
+/*Custom properties*/
+    :root{
+        _pink: #e53170;
+        _blue: #55b3d8;
+    }
 /*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*Generics*/
+h1{
+    color: #e53170;
+}
 /*Utilties*/
