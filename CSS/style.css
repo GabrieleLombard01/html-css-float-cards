@@ -45,8 +45,9 @@ img{
 .colunn{
     width: calc(100% / 3);
     border: solid black 2px;
-    
+    float: left;
 }
 .left_position{
     float: left;
 }
+
