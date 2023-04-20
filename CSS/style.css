@@ -20,6 +20,16 @@ h1{
     padding-top: 100px;
     padding-bottom: 25px;
 }
+h2{
+    font-size: 20px;
+    font-family: Fredoka, 'Comic Sans', cursive;
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+    font-family: Fredoka, 'Comic Sans', cursive;
+    font-weight: lighter;
+}
 p{
     text-align: center;
     padding-bottom: 25px;
@@ -44,10 +54,18 @@ img{
 }
 .colunn{
     width: calc(100% / 3);
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 11px;
     float: left;
+    color: white;
+    background-color: black;
 }
 .left_position{
     float: left;
+}
+.white_separator{
+    border: solid white 10px;
+}
+.mail_color{
+    color: #55b3d8;
 }
 
