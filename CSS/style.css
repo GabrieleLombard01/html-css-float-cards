@@ -37,15 +37,12 @@ p{
 img{
     height: 100px;
     width: 100px;
+    margin-right: 10px;
 }
 /*Utilties*/
 .conteiner{
     max-width: 1000px;
     margin: 0 auto;
-    border: solid red 2px;
-}
-.row{
-
 }
 .clearfix::after{
     clear: both;
