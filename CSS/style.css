@@ -15,6 +15,6 @@
 }
 /*Generics*/
 h1{
-    color: #e53170;
+    color: var(_pink);
 }
 /*Utilties*/
